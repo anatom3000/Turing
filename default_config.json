@@ -1,0 +1,19 @@
+{
+    "secrets": {
+        "discord": "<your Discord bot token>",
+        "openai": "<your OpenAI token>"
+    },
+    "prefix": "?",
+    "owner": 0,
+    "moderators": [],
+    "parrot_mode": false,
+    "logging": false,
+    "ai": {
+        "temperature": 0.0,
+        "max_tokens": 128,
+        "engine": "text-davinci-002",
+        "top_p": 1.0,
+        "frequency_penalty": 0.0,
+        "presence_penalty": 0.0
+    }
+}

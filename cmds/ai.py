@@ -34,7 +34,7 @@ class AI(commands.Cog):
             description=text,
         )
         embed.set_footer(text=f"Asked by {ctx.author.display_name}",
-                         icon_url=ctx.author.avatar_url)
+                         icon_url=ctx.author.display_avatar.url)
         await ctx.send(embed=embed)
         await ctx.message.delete()
 
